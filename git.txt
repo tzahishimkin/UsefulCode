@@ -1,5 +1,4 @@
 
-
 #Smart Git:
 Go to and install from :
 https://github.com/geelen/git-smart
