@@ -1,5 +1,0 @@
-
-#Smart Git:
-Go to and install from :
-https://github.com/geelen/git-smart
-Also, check out what is gem if you are at it (Thanks)
