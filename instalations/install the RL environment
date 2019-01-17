@@ -1,0 +1,32 @@
+You will need to install:
+ RLLab
+ Mujoco
+ download VIME
+ download your bellman project
+ Install all depandancies, noting that VIME/Mujoco/RLLab have very specific combination that they can work together with
+ 
+ 
+ 
+ Workthrough
+ 
+ 1. Git clone RLLab
+ cd <work dir>
+ git clone https://github.com/rll/rllab
+ 
+ 2. Clone VIME to sandbox folder
+ cd rllab/sandbox
+ git clone https://github.com/openai/vime
+ 
+ 
+ 3. Put bellman and w1me in sandbox:
+ #Assuming in rllab/sandbox
+ git clone https://github.com/tzahishimkin/w1me
+ git clone https://github.com/tzahishimkin/bellman_project bellman_gan_actor_critic
+ 
+ 4. Install Mujoco:
+ Check out the link for insturctions. They have a guide there. However, note that you will need to install specific version of Mujoco (1.3.1 I think) that works with VIME and RLLab. I found a guy that worked it out, so might require some exploration
+ 
+ Link: https://github.com/openai/mujoco-py
+ 5. Install all requirments:
+ This is a bit more tricky, as it depands on the system etc. 
+ Generally, 
